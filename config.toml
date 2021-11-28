@@ -1,4 +1,4 @@
-baseURL = 'mimame.github.io'
+baseURL = 'https://mimame.github.io/'
 # baseURL = 'http://localhost:1313/'
 
 title = 'Miguel Madrid-Mencía'
@@ -111,7 +111,7 @@ url = "https://www.linkedin.com/in/miguel-madrid-mencia/"
 name = "RSS"
 icon = "fa fa-2x fa-rss"
 weight = 6
-url = "mimame.github.io/index.xml"
+url = "https://mimame.github.io/index.xml"
 rel = "alternate"
 type = "application/rss+xml"
 
