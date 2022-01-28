@@ -1,7 +1,7 @@
 baseURL = 'https://mimame.github.io/'
 # baseURL = 'http://localhost:1313/'
 
-title = 'Miguel Madrid-Mencía'
+# title = 'Miguel Madrid-Mencía'
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -106,6 +106,18 @@ name = "LinkedIn"
 icon = "fa fa-2x fa-linkedin"
 weight = 4
 url = "https://www.linkedin.com/in/miguel-madrid-mencia/"
+
+[[params.social]]
+name = "Google Scholar"
+icon = "fa fa-2x fa-graduation-cap"
+weight = 4
+url = "https://scholar.google.com/citations?user=4QCcJzoAAAAJ&hl=en"
+
+[[params.social]]
+name = "ResearchGate"
+icon = "fa fa-2x fa-researchgate"
+weight = 4
+url = "https://www.researchgate.net/profile/Miguel-Madrid-Mencia"
 
 [[params.social]]
 name = "RSS"
