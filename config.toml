@@ -16,8 +16,8 @@ enableEmoji = true
 [params]
 author = "Miguel Madrid-Mencía"
 description = "Miguel Madrid-Mencía portfolio"
-keywords = "portfolio,developer,bioinformatician,sysadmin,engineer,cv"
-info = ["Computer Engineer", "Bioinformatician", "SysAdmin"]
+keywords = "portfolio,developer,bioinformatician,devopssysadmin,engineer,cv"
+info = ["Computer Engineer", "Bioinformatician", "DevOps"]
 avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
