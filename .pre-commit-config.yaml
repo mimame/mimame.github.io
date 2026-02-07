@@ -1,0 +1,25 @@
+# prek configuration using builtin hooks
+# CRITICAL: Only runs on content/source files, skipping all template assets/logic.
+files: ^(_pages/|_posts/|_portfolio/|_publications/|_teaching/|_data/|_bibliography/|_config\.yml|Gemfile|AGENTS\.md|.*\.typ$)
+exclude: ^(assets/|_includes/|_layouts/|_sass/|scripts/|markdown_generator/|talkmap/|files/|_site/|.gem/|.sass-cache/|.jekyll-cache/)
+
+repos:
+  - repo: builtin
+    hooks:
+      - id: trailing-whitespace
+        args: [--markdown-linebreak-ext=md]
+      - id: end-of-file-fixer
+      - id: check-added-large-files
+      - id: check-case-conflict
+      - id: fix-byte-order-marker
+      - id: check-json
+      - id: check-json5
+      - id: check-toml
+      - id: check-yaml
+        args: [--allow-multiple-documents]
+      - id: check-xml
+      - id: mixed-line-ending
+      - id: check-symlinks
+      - id: check-merge-conflict
+      - id: detect-private-key
+      - id: check-executables-have-shebangs
