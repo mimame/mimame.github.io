@@ -1,152 +1,192 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Miguel Madrid-Mencía",
+    "label": "Senior Backend & Cloud Engineer | Bioinformatics & AI Systems",
+    "email": "miguel.madrid.mencia@gmail.com",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "website": "https://mimame.github.io",
+    "summary": "Senior Backend and Cloud Engineer with 10+ years across public/private sectors in research, genomics, and software consulting. Designing secure, reproducible production systems for cloud-native services, CI/CD, Machine Learning and Generative AI. Co-Author of 7 peer-reviewed scientific publications (100+ citations) and co-author of a patent in progress with Illumina.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Toulouse",
+      "countryCode": "FR",
+      "region": "Occitanie"
     },
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "username": "Miguel Madrid-Mencía",
+        "url": "https://scholar.google.com/citations?user=4QCcJzoAAAAJ"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "mimame",
+        "url": "https://github.com/mimame"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "miguel-madrid-mencia",
+        "url": "https://www.linkedin.com/in/miguel-madrid-mencia"
       }
     ]
   },
-  "work": [],
-  "education": [
+  "work": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "company": "Egen.ai",
+      "position": "Senior Backend & Cloud Engineer",
+      "startDate": "Jan 2025",
+      "endDate": "Present",
+      "summary": "Applied ML Systems. Technology services to drive action and impact through cloud, data, AI, and platforms.",
+      "highlights": [
+        "Built Voice AI testing framework for production systems with a focus on validation, traceability, and operational reliability.",
+        "Led improvements in CI/CD pipelines, code quality, and security standards for a US financial client."
+      ],
+      "location": "Hybrid: US, France",
+      "url": "https://egen.ai"
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
+      "company": "Qarik Group",
+      "position": "Senior Backend & Cloud Engineer",
+      "startDate": "Feb 2024",
+      "endDate": "Dec 2024",
+      "summary": "Acquired by Egen.ai in 2024. Applied ML Systems.",
+      "highlights": [
+        "Built and deployed cloud-native GCP services for healthcare and precision medicine, optimizing scalability, reliability, and cost.",
+        "Implemented Infrastructure as Code and CI/CD workflows, reducing deployment risk and operational complexity.",
+        "Contributed to internal best practices around software quality, reproducibility, and DevSecOps."
+      ],
+      "location": "Hybrid: US, France",
+      "url": "https://egen.ai"
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "company": "Illumina, Inc.",
+      "position": "Senior Software Engineer",
+      "startDate": "Mar 2022",
+      "endDate": "Feb 2024",
+      "summary": "Genetic analysis technologies: personalized medicine, disease research, drug development.",
+      "highlights": [
+        "Benchmarked privacy-preserving data solutions from partners, evaluating performance and regulatory compatibility.",
+        "Designed machine learning pipelines and reproducible workflows across HPC, AWS, and Illumina Connected Analytics (ICA).",
+        "Led automation initiatives improving reliability and user experience in large-scale genomics platforms.",
+        "Designed and optimized Snowflake-based data models for genomics and GWAS pipelines.",
+        "Co-authored a patent in progress in applied bioinformatics and genomic data processing."
+      ],
+      "location": "Hybrid: UK, France",
+      "url": "https://www.illumina.com"
+    },
+    {
+      "company": "Cancer Research Center of Toulouse (CRCT)",
+      "position": "Bioinformatics Engineer",
+      "startDate": "Oct 2018",
+      "endDate": "Feb 2022",
+      "summary": "Stimulate innovation in terms of research and teaching in the fight against cancer.",
+      "highlights": [
+        "Designed reproducible ML pipelines for multi-omics cancer research.",
+        "Contributed to 7 international peer-reviewed publications in oncology and systems biology.",
+        "Developed interactive web tools and microservices to make complex bioinformatics workflows accessible to researchers.",
+        "Managed IT infrastructure and DevOps practices for a multidisciplinary bioinformatics team."
+      ],
+      "location": "Hybrid: Toulouse, France",
+      "url": "https://www.crct-inserm.fr/en/netbio2_en/"
+    },
+    {
+      "company": "Spanish National Supercomputing Center (BSC)",
+      "position": "Research Engineer",
+      "startDate": "Jul 2017",
+      "endDate": "May 2018",
+      "summary": "High performance computing (HPC) MareNostrum, a leading European supercomputer.",
+      "highlights": [
+        "Developed a platform for AQuAS to analyze health outcomes and quality indicators through an interactive geospatial map.",
+        "Improved testing and workflow reproducibility for the Elixir / OpenEBench European HPC infrastructure."
+      ],
+      "location": "Barcelona, Spain",
+      "url": "https://www.bsc.es"
+    },
+    {
+      "company": "Spanish National Cancer Research Center (CNIO)",
+      "position": "Research Technician",
+      "startDate": "Nov 2016",
+      "endDate": "Jun 2017",
+      "summary": "Develop new and more effective approaches to preventing, diagnosing and treating cancer.",
+      "highlights": [
+        "Developed a reproducible workflow to identify mutation clusters in protein structures, including web-based visualization.",
+        "Contributed to the European OpenMinTeD NLP/text-mining project, developing services and APIs for biomedical text analysis."
+      ],
+      "location": "Madrid, Spain",
+      "url": "https://www.cnio.es/en/"
     }
   ],
-  "skills": [],
+  "education": [
+    {
+      "institution": "Instituto de Salud Carlos III",
+      "area": "Master in Bioinformatics and Computational Biology",
+      "studyType": "Master",
+      "startDate": "Sep 2015",
+      "endDate": "May 2016",
+      "summary": "Master's Thesis: Structure-PPi v2.0: Module for Annotating Cancer-Related Single-Nucleotide Variants at Protein-Protein Interfaces."
+    },
+    {
+      "institution": "Universidad Complutense de Madrid",
+      "area": "Computer Engineering (Information Technologies)",
+      "studyType": "Bachelor",
+      "startDate": "Oct 2011",
+      "endDate": "Sep 2015",
+      "summary": "Bachelor's Thesis: Computer Vision Adapted to Optical Coherence Tomographies."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Cloud & DevOps",
+      "keywords": [
+        "GCP (BigQuery, GSUtils)",
+        "AWS (EC2, S3, Boto3)",
+        "Terraform",
+        "Ansible",
+        "Docker / Docker-Compose",
+        "Kubernetes / Helm",
+        "Nix / NixOS",
+        "CI/CD (Concourse, Jenkins)",
+        "Infrastructure as Code"
+      ]
+    },
+    {
+      "name": "Programming & Data",
+      "keywords": [
+        "Python (Pytest, SQLAlchemy, Pandas, Polars)",
+        "Go",
+        "Rust",
+        "R (Tidyverse, Tidymodels)",
+        "SQL (Snowflake, MariaDB, Postgres)",
+        "Machine Learning",
+        "Generative AI / LLMs"
+      ]
+    },
+    {
+      "name": "Bioinformatics",
+      "keywords": [
+        "Nextflow",
+        "Snakemake",
+        "Singularity",
+        "Multi-omics pipelines",
+        "GWAS",
+        "Structural Bioinformatics",
+        "Genome Databases"
+      ]
+    },
+    {
+      "name": "Languages",
+      "keywords": [
+        "Spanish (Native)",
+        "English (Professional)",
+        "French (Professional)"
+      ]
+    }
+  ],
   "languages": [],
   "interests": [],
   "references": [],
-  "publications": [
-    {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
-    }
-  ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "publications": [],
+  "teaching": [],
+  "portfolio": []
 }
