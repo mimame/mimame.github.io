@@ -11,11 +11,17 @@ main:
   - title: "CV"
     url: /cv/
 
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "Expertise"
+    url: /expertise/
 
   - title: "Publications"
     url: /publications/
+
+  - title: "Portfolio"
+    url: /portfolio/
+
+  - title: "Workflow"
+    url: /workflow/
 
   - title: "Teaching"
     url: /teaching/

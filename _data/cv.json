@@ -137,29 +137,28 @@
   ],
   "skills": [
     {
-      "name": "Cloud & DevOps",
+      "name": "Cloud & Platforms",
       "keywords": [
+        "Terraform",
         "GCP (BigQuery, GSUtils)",
         "AWS (EC2, S3, Boto3)",
-        "Terraform",
-        "Ansible",
-        "Docker / Docker-Compose",
         "Kubernetes / Helm",
+        "Ansible",
         "Nix / NixOS",
-        "CI/CD (Concourse, Jenkins)",
+        "Docker, Podman, Incus (LXD)",
+        "CI/CD (Concourse, Jenkins, GitHub Actions)",
         "Infrastructure as Code"
       ]
     },
     {
-      "name": "Programming & Data",
+      "name": "Data Analysis & ML",
       "keywords": [
-        "Python (Pytest, SQLAlchemy, Pandas, Polars)",
-        "Go",
-        "Rust",
-        "R (Tidyverse, Tidymodels)",
-        "SQL (Snowflake, MariaDB, Postgres)",
-        "Machine Learning",
-        "Generative AI / LLMs"
+        "Python (Pandas, Polars, Scikit-Learn, PyCaret, Optuna, SDV)",
+        "R (Tidyverse, Tidymodels, DESeq2)",
+        "Julia (DataFrames.jl, Tidier.jl)",
+        "SQL (Snowflake, BigQuery, MariaDB, Postgres, SQLite)",
+        "Generative AI / LLMs (GPT-4o, Gemini, Llama3)",
+        "Visualization (Seaborn, ggplot2, Dash, D3.js)"
       ]
     },
     {
@@ -167,19 +166,19 @@
       "keywords": [
         "Nextflow",
         "Snakemake",
-        "Singularity",
-        "Multi-omics pipelines",
-        "GWAS",
+        "GWAS (Hail, Regenie, Plink)",
+        "Genome Databases (Ensembl, UCSC, GENCODE, TCGA)",
+        "Pathways (Reactome, KEGG, GSEA)",
         "Structural Bioinformatics",
-        "Genome Databases"
+        "Somatic Mutation Analysis (COSMIC)"
       ]
     },
     {
       "name": "Languages",
       "keywords": [
         "Spanish (Native)",
-        "English (Professional)",
-        "French (Professional)"
+        "English (Professional Working Proficiency)",
+        "French (Professional Working Proficiency)"
       ]
     }
   ],
