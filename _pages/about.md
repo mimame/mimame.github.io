@@ -9,7 +9,7 @@ redirect_from:
 
 Senior Backend and Cloud Engineer with over 10 years of experience across the public and private sectors in research, genomics, and software consulting. I specialize in designing secure, reproducible production systems for cloud-native services, CI/CD, Machine Learning, and Generative AI.
 
-My professional journey has been defined by a hybrid presence across the US, UK, Spain, and France, allowing me to thrive in international, multidisciplinary teams. I bring a scientific method mindset to software engineering, prioritizing evidence-based problem-solving, robust automation, and high-quality CI/CD workflows.
+My professional journey has been defined by a global, "follow the sun" (sun to sun) presence—working across multidisciplinary teams from **Singapore to San Diego**, crossing **India**, **France** (Toulouse), **Spain** (Madrid and Barcelona), the **UK** (Cambridge and Hinxton), and the **US** (Chicago). This international exposure has allowed me to thrive in diverse environments and bridge complex engineering challenges across time zones and cultures. I bring a scientific method mindset to software engineering, prioritizing evidence-based problem-solving, robust automation, and high-quality CI/CD workflows.
 
 Currently, at **Egen.ai** (following the acquisition of Qarik Group), I lead the design of cloud-native systems and specialized testing frameworks, such as a Voice AI validation system for production reliability. My work involves optimizing GCP infrastructure via Terraform and strengthening security and CI/CD standards for high-stakes clients in the financial and healthcare sectors.
 
