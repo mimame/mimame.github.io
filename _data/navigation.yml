@@ -20,11 +20,6 @@ main:
   - title: "Portfolio"
     url: /portfolio/
 
-  - title: "Workflow"
-    url: /workflow/
-
-  - title: "Teaching"
-    url: /teaching/
 
   # Blog is disabled — re-enable by uncommenting these two lines
   # - title: "Blog"

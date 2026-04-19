@@ -5,7 +5,7 @@
     "email": "miguel.madrid.mencia@gmail.com",
     "phone": "",
     "website": "https://mimame.dev",
-    "summary": "Senior Backend and Cloud Engineer with 10+ years of experience in research, genomics, and software consulting. Expert in designing secure, reproducible production systems for cloud-native services, CI/CD, and ML/AI. Experienced in leading multidisciplinary teams across global \"follow the sun\" (sun to sun) workflows—from Singapore to San Diego, spanning India, Europe (Madrid, Barcelona, Toulouse, Cambridge, Hinxton), and the US (Chicago). Co-Author of 7 peer-reviewed publications and a patent in progress.",
+    "summary": "10+ years building cloud-native systems across genomics, healthcare, and AI. 1 first-author and 6 co-authored peer-reviewed publications with 120+ citations.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -35,27 +35,14 @@
     {
       "company": "Egen.ai",
       "position": "Senior Backend & Cloud Engineer",
-      "startDate": "Jan 2025",
-      "endDate": "Present",
-      "summary": "Applied ML Systems. Technology services to drive action and impact through cloud, data, AI, and platforms.",
-      "highlights": [
-        "Built Voice AI testing framework for production systems with a focus on validation, traceability, and operational reliability.",
-        "Led improvements in CI/CD pipelines, code quality, and security standards for a US financial client.",
-        "Developed GCP Agents and A2A orchestration via MCP/ADK for a pharma & biotech corporation."
-      ],
-      "location": "Hybrid: US, France",
-      "url": "https://egen.ai"
-    },
-    {
-      "company": "Qarik Group",
-      "position": "Senior Backend & Cloud Engineer",
       "startDate": "Feb 2024",
-      "endDate": "Dec 2024",
-      "summary": "Acquired by Egen.ai in 2024. Applied ML Systems.",
+      "endDate": "Present",
+      "summary": "Applied ML Systems. Technology services through cloud, data, AI, and platforms.",
       "highlights": [
-        "Built and deployed cloud-native GCP services for healthcare and precision medicine, optimizing scalability, reliability, and cost.",
-        "Implemented Infrastructure as Code and CI/CD workflows, reducing deployment risk and operational complexity.",
-        "Contributed to internal best practices around software quality, reproducibility, and DevSecOps."
+        "Built an automated data pipeline migration tool with an internal developer API for healthcare and precision medicine workloads on GCP.",
+        "Built a Twilio-based testing framework to automatically generate all mood and user behavior call combinations for a Voice AI system, replacing manual script configuration.",
+        "Hardened CI/CD pipelines, code quality gates, and security standards for a US financial client — catching production issues earlier and reducing error-prone contributions across the team.",
+        "Developed GCP Agents and A2A orchestration via MCP/ADK for a pharma & biotech corporation."
       ],
       "location": "Hybrid: US, France",
       "url": "https://egen.ai"
@@ -67,11 +54,10 @@
       "endDate": "Feb 2024",
       "summary": "Genetic analysis technologies: personalized medicine, disease research, drug development.",
       "highlights": [
-        "Benchmarked privacy-preserving data solutions from partners, evaluating performance and regulatory compatibility.",
-        "Designed machine learning pipelines and reproducible workflows across HPC, AWS, and Illumina Connected Analytics (ICA).",
-        "Led automation initiatives improving reliability and user experience in large-scale genomics platforms.",
+        "Evaluated privacy-preserving data sharing solutions to reduce friction from restrictive genomic data policies.",
+        "Built machine learning pipelines on Illumina Connected Analytics (ICA), HPC, and AWS.",
         "Designed and optimized Snowflake-based data models for genomics and GWAS pipelines.",
-        "Co-authored a patent in progress in applied bioinformatics and genomic data processing."
+        "Co-authored a pending patent in applied bioinformatics and genomic data processing."
       ],
       "location": "Hybrid: UK, France",
       "url": "https://www.illumina.com"
@@ -81,12 +67,11 @@
       "position": "Bioinformatics Engineer",
       "startDate": "Oct 2018",
       "endDate": "Feb 2022",
-      "summary": "Stimulate innovation in terms of research and teaching in the fight against cancer.",
+      "summary": "Translational cancer research center in Toulouse, focused on oncology and systems biology.",
       "highlights": [
-        "Designed reproducible ML pipelines for multi-omics cancer research.",
-        "Contributed to 7 international peer-reviewed publications in oncology and systems biology.",
-        "Developed interactive web tools and microservices to make complex bioinformatics workflows accessible to researchers.",
-        "Managed IT infrastructure and DevOps practices for a multidisciplinary bioinformatics team."
+        "Designed reproducible ML pipelines for multi-omics analysis of pancreatic and lung cancer, scaled across cancer types.",
+        "1 first-author and 6 co-authored peer-reviewed publications with 120+ citations in oncology and systems biology.",
+        "Built GARDEN-NET, a web tool for 3D chromatin interaction analysis, still in active use — published in Nucleic Acids Research."
       ],
       "location": "Hybrid: Toulouse, France",
       "url": "https://www.crct-inserm.fr/en/netbio2_en/"
@@ -96,10 +81,10 @@
       "position": "Research Engineer",
       "startDate": "Jul 2017",
       "endDate": "May 2018",
-      "summary": "High performance computing (HPC) MareNostrum, a leading European supercomputer.",
+      "summary": "European HPC center hosting the MareNostrum supercomputer.",
       "highlights": [
         "Developed a platform for AQuAS to analyze health outcomes and quality indicators through an interactive geospatial map.",
-        "Improved testing and workflow reproducibility for the Elixir / OpenEBench European HPC infrastructure."
+        "Automated server setup testing and reproducibility for the Elixir/OpenEBench European HPC infrastructure."
       ],
       "location": "Barcelona, Spain",
       "url": "https://www.bsc.es"
@@ -109,7 +94,7 @@
       "position": "Research Technician",
       "startDate": "Nov 2016",
       "endDate": "Jun 2017",
-      "summary": "Develop new and more effective approaches to preventing, diagnosing and treating cancer.",
+      "summary": "Spain's national cancer research institute, focused on molecular oncology.",
       "highlights": [
         "Developed a reproducible workflow to identify mutation clusters in protein structures, including web-based visualization.",
         "Contributed to the European OpenMinTeD NLP/text-mining project, developing services and APIs for biomedical text analysis."
@@ -141,24 +126,20 @@
       "name": "Cloud & Platforms",
       "keywords": [
         "Terraform",
-        "GCP (BigQuery, GSUtils)",
-        "AWS (EC2, S3, Boto3)",
+        "GCP",
+        "AWS",
         "Kubernetes / Helm",
-        "Ansible",
-        "Nix / NixOS",
-        "Docker, Podman, Incus (LXD)",
-        "CI/CD (Concourse, Jenkins, GitHub Actions)",
-        "Infrastructure as Code"
+        "Docker, Podman",
+        "CI/CD (Concourse, Jenkins, GitHub Actions)"
       ]
     },
     {
       "name": "Data Analysis & ML",
       "keywords": [
-        "Python (Pandas, Polars, Scikit-Learn, PyCaret, Optuna, SDV)",
+        "Python (Pandas, Polars, Scikit-Learn)",
         "R (Tidyverse, Tidymodels, DESeq2)",
-        "Julia (DataFrames.jl, Tidier.jl)",
-        "SQL (Snowflake, BigQuery, MariaDB, Postgres, SQLite)",
-        "Generative AI / LLMs (GPT-4o, Gemini, Llama3)",
+        "SQL (Snowflake, BigQuery, PostgreSQL)",
+        "Generative AI / LLMs",
         "Visualization (Seaborn, ggplot2, Dash, D3.js)"
       ]
     },
@@ -171,18 +152,6 @@
         "Pathways (Reactome, KEGG, GSEA)",
         "Structural Bioinformatics",
         "Somatic Mutation Analysis (COSMIC)"
-      ]
-    },
-    {
-      "name": "Security & Compliance",
-      "keywords": [
-        "DevSecOps practices",
-        "Secret management (Vault, GCP Secret Manager)",
-        "IAM & least-privilege design",
-        "Privacy-preserving data handling",
-        "Regulatory awareness (HIPAA, GDPR)",
-        "Security hardening in CI/CD pipelines",
-        "Dependency scanning & vulnerability triage"
       ]
     },
     {
