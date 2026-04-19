@@ -14,26 +14,49 @@ Built using [Jekyll](https://jekyllrb.com/) and based on the [Academic Pages](ht
 ## Development Workflow
 
 ### Prerequisites
-- [Nix](https://nixos.org/)
+- [Nix](https://nixos.org/) (Linux)
+- Homebrew Ruby (macOS) — any version, including 4.x
 
-### Setup
+### Setup — Linux (Nix)
 Install Ruby dependencies and initialize pre-commit hooks:
 ```bash
 nix-shell --run "bundle install"
 nix-shell -p prek --run "prek install"
 ```
 
-### Running Locally
-To serve the site locally with auto-reload:
+### Setup — macOS
+Homebrew Ruby 4.x works out of the box. A plugin (`_plugins/ruby4_compat.rb`) patches the `String#tainted?` method removed in Ruby 3.2, which Liquid 4.x still calls. No version manager or Ruby pinning needed.
+
 ```bash
-nix-shell --run "bundle exec jekyll serve --incremental"
+bundle install
+```
+
+### Running Locally
+To serve the site locally with live browser reload and incremental builds:
+```bash
+# Linux
+bundle exec jekyll serve --livereload --incremental
+
+# macOS
+bundle exec jekyll serve --livereload --incremental
 ```
 Once running, the site is available at `http://localhost:4000`.
+
+- `--livereload`: automatically refreshes the browser when files change.
+- `--incremental`: only rebuilds changed pages, skipping the rest (faster iteration). **Does not detect changes to `_data/` files** (e.g. `cv.json`). If updates aren't showing, restart Jekyll with a clean build:
+  ```bash
+  bundle exec jekyll clean
+  bundle exec jekyll serve --livereload --incremental
+  ```
 
 ### Maintenance
 - **Cleaning Cache:** If the site does not update as expected, clean the cache using:
   ```bash
+  # Linux
   nix-shell --run "bundle exec jekyll clean"
+
+  # macOS
+  bundle exec jekyll clean
   ```
 - **Updating Content:**
   - **CV & Expertise:** Modify `_data/cv.json`.

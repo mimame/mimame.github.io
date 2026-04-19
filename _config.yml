@@ -168,6 +168,8 @@ include:
   - _pages
   - files
 exclude:
+  - _posts                  # Blog disabled — remove to re-enable
+  - _pages/year-archive.html  # Blog archive page — remove to re-enable
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

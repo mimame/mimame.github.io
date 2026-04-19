@@ -26,5 +26,6 @@ main:
   - title: "Teaching"
     url: /teaching/
 
-  - title: "Blog"
-    url: /year-archive/
+  # Blog is disabled — re-enable by uncommenting these two lines
+  # - title: "Blog"
+  #   url: /year-archive/

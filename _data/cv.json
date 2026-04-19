@@ -40,7 +40,8 @@
       "summary": "Applied ML Systems. Technology services to drive action and impact through cloud, data, AI, and platforms.",
       "highlights": [
         "Built Voice AI testing framework for production systems with a focus on validation, traceability, and operational reliability.",
-        "Led improvements in CI/CD pipelines, code quality, and security standards for a US financial client."
+        "Led improvements in CI/CD pipelines, code quality, and security standards for a US financial client.",
+        "Developed GCP Agents and A2A orchestration via MCP/ADK for a pharma & biotech corporation."
       ],
       "location": "Hybrid: US, France",
       "url": "https://egen.ai"
@@ -164,13 +165,24 @@
     {
       "name": "Bioinformatics",
       "keywords": [
-        "Nextflow",
-        "Snakemake",
+        "Workflow managers (Nextflow, Snakemake)",
         "GWAS (Hail, Regenie, Plink)",
         "Genome Databases (Ensembl, UCSC, GENCODE, TCGA)",
         "Pathways (Reactome, KEGG, GSEA)",
         "Structural Bioinformatics",
         "Somatic Mutation Analysis (COSMIC)"
+      ]
+    },
+    {
+      "name": "Security & Compliance",
+      "keywords": [
+        "DevSecOps practices",
+        "Secret management (Vault, GCP Secret Manager)",
+        "IAM & least-privilege design",
+        "Privacy-preserving data handling",
+        "Regulatory awareness (HIPAA, GDPR)",
+        "Security hardening in CI/CD pipelines",
+        "Dependency scanning & vulnerability triage"
       ]
     },
     {
