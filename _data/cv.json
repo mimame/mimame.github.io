@@ -5,7 +5,7 @@
     "email": "miguel.madrid.mencia@gmail.com",
     "phone": "",
     "website": "https://mimame.dev",
-    "summary": "10+ years building cloud-native systems across genomics, healthcare, and AI. 1 first-author and 6 co-authored peer-reviewed publications with 120+ citations.",
+    "summary": "10+ years building cloud-native systems across genomics, healthcare, and AI. 1 first-author and 6 co-authored peer-reviewed publications with 125+ citations.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -70,7 +70,7 @@
       "summary": "Translational cancer research center in Toulouse, focused on oncology and systems biology.",
       "highlights": [
         "Designed reproducible ML pipelines for multi-omics analysis of pancreatic and lung cancer, scaled across cancer types.",
-        "1 first-author and 6 co-authored peer-reviewed publications with 120+ citations in oncology and systems biology.",
+        "1 first-author and 6 co-authored peer-reviewed publications with 125+ citations in oncology and systems biology.",
         "Built GARDEN-NET, a web tool for 3D chromatin interaction analysis, still in active use — published in Nucleic Acids Research."
       ],
       "location": "Hybrid: Toulouse, France",
